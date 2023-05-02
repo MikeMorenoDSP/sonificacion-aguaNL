@@ -1,0 +1,17 @@
+#N canvas 0 22 270 313 12;
+#X obj 35 149 array set \$0-word;
+#X obj 45 179 array define \$0-word;
+#X obj 58 94 list length;
+#X obj 58 118 array size \$0-word;
+#X obj 12 65 t b l l;
+#X obj 12 208 array sum \$0-word;
+#X obj 12 41 fudiformat;
+#X obj 12 237 outlet;
+#X obj 12 12 inlet;
+#X connect 2 0 3 0;
+#X connect 4 0 5 0;
+#X connect 4 1 0 0;
+#X connect 4 2 2 0;
+#X connect 5 0 7 0;
+#X connect 6 0 4 0;
+#X connect 8 0 6 0;
