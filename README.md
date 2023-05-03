@@ -7,12 +7,12 @@ Fue presentada en el LabNL Lab Cultural Ciudadano como parte del FestiLab '22.
   <a href="https://github.com/MikeMorenoDSP/sonificacion-aguaNL/archive/refs/heads/main.zip">Descarga el código en .zip</a>
 </h3>
 
-## Software
+## 🖥️ Software 
 Esta sonificación fue programada en [pure data vanilla versión 0.52-1](https://puredata.info/).
 
 Se requiere uso de la librería [else versión 1.0-rc4](https://github.com/porres/pd-else/releases/tag/v1.0-rc4) para la parte sonora y [GEM](https://github.com/umlaeute/Gem) para la parte visual reactiva.
 
-## Sonificación
+## 🔊 Sonificación
 Se tomaron los datos de un archivo .csv del repositorio [MapatonAgua](https://github.com/cesar-xyz/MapatonAgua/blob/main/files/UnionRegiosDOF.csv).
 
 En él se consideraron las siguientes columnas para relacionarlo a diferentes parámetros musicales:
@@ -33,7 +33,7 @@ En él se consideraron las siguientes columnas para relacionarlo a diferentes pa
     9. Pecuario (3 – 11%): karplus síntesis.
     10. Servicios (6 – 4%): clicks.
 
-## Enlaces
+## 🔗 Enlaces
 - Sitio del proyecto: https://sites.google.com/view/acuiferosnl/inicio
 - Mapa interactivo: https://cesar-xyz-mapatonagua-appapp-vp0zii.streamlit.app/
 - Repositorio Mapaton de Agua NL: https://github.com/cesar-xyz/MapatonAgua
